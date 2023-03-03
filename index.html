@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Store</title>
+</head>
+<body>
+    <!--------HEADER SECTION--------->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> CUO</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="complan.jpeg" alt="">
+                <div class="content">
+                    <h3 class="fix">Complan Milk</h3>
+                    <span class="price">$4.50/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="jameson wine.png" alt="">
+                <div class="content">
+                    <h3 class="fix">Jameson Wine</h3>
+                    <span class="price">$8.33/-</span>
+                    <span class="quantity">qty : 3</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="Coke.jpeg" alt="">
+                <div class="content">
+                    <h3 class="fix">Coca Cola</h3>
+                    <span class="price">$0.5/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total : $29.99/- </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your passward? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">create account</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+    <!--------HEADER SECTION--------->
+<!--------HOME SECTION--------->
+<section class="home" id="home">
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for you</h3>
+        <p>We are here to serve you the best items at affordable prices
+        </p>
+        <a href="shopnow.html" class="btn">Shop Now</a>
+    </div>
+</section>
+<!--------HOME SECTION END--------->
+
+<!--FEATURES SECTION STARTS-->
+<section class="features" id="features">
+    <h1 class="heading">Our <span>features</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="vegetable1.png" alt="">
+            <h3>fresh and organic</h3>
+            <p>fresh from farm with great taste</p>
+            <p>healthier for you and more nutrient dense</p>
+            <p>free from chemicals</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="delivery.webp" alt="">
+            <h3>free delivery</h3>
+            <p>free delivery</p>
+            <p>we deliver on time</p>
+            <p>nationwide delivery</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="account.jpg" alt="">
+            <h3>easy payment</h3>
+            <p>cash payment</p>
+            <p>card payment</p>
+            <p>transfer payment</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        
+    </div>
+</section>
+<!--FEATURES SECTION ENDS-->
+
+<!--PRODUCTS SECTION STARTS-->
+<section class="products" id="products">
+    <h1 class="heading">our <span>products</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="fresh-tomato.png" alt="">
+                <h3>fresh tomato 1kg</h3>
+                <div class="price">$6.23/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="cabbage.jfif" alt="">
+                <h3>cabbage</h3>
+                <div class="price">$3.05/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="complan.jpeg" alt="">
+                <h3>complan 450g</h3>
+                <div class="price">$5/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="25-wine-bottle-png-image.png" alt="">
+                <h3>18+ whisky</h3>
+                <div class="price">$8.45/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="Dove lotion.jfif" alt="">
+                <h3>dove lotion</h3>
+                <div class="price">$7/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="Peak-Powdered-Milk-removebg-preview.png" alt="">
+                <h3>Peak Powdered Milk 2kg</h3>
+                <div class="price">$4.06/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="Coke.jpeg" alt="">
+                <h3>Coca cola pet 50cl</h3>
+                <div class="price">$0.52/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="jameson wine.png" alt="">
+                <h3>jameson 750cl</h3>
+                <div class="price">$5.45/- 10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--PRODUCTS SECTION ENDS-->
+
+<!----CATEGORIES SECTION STARTS----->
+<section class="categories" id="categories">
+    <h1 class="heading">product <span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="vegetables.png" alt="">
+            <h3>fresh vegetables</h3>
+            <p>upto 46% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="fruits.png" alt="">
+            <h3>fresh fruits</h3>
+            <p>upto 20% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="baby food.png" alt="">
+            <h3>baby food</h3>
+            <p>upto 13% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="fresh-meat.png" alt="">
+            <h3>fresh cow meat</h3>
+            <p>upto 2% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="ford-mustang-red-car.png" alt="">
+            <h3>automobiles</h3>
+            <p>upto 13% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="Health_Beauty.png" alt="">
+            <h3>Health Beauty</h3>
+            <p>upto 13% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="phones1.png" alt="">
+            <h3>phones and tablets</h3>
+            <p>upto 13% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="fashion1.jfif" alt="">
+            <h3>fashion</h3>
+            <p>upto 13% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+<!----CATEGORIES SECTION ENDS----->
+
+<!--REVIEW SECTION STARTS-->
+<section class="review" id="rewiew">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="insta.jpg" alt="">
+                <p>shopping online can never be more easier and safer, thank you so much for always having your customers at heart.</p>
+                <h3>angela johnson</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="woman1.jpg" alt="">
+                <p>shopping made easier, always giving the best services to customers. i am glad i found you, keep it up!</p>
+                <h3>angela johnson</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="woman1.png" alt="">
+                <p>should i talk about how quality your goods are or how affordable they are? you are just the best</p>
+                <h3>onyinyechi udoka</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="man.jfif" alt="">
+                <p>you have saved my precious wife from market stress, she now place orders and get her goods delivered.</p>
+                <h3>benard michael</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="cubana.jpeg" alt="">
+                <p>i am not going to appreciate you enough, the car i got from you is the best thing i have had in this year.</p>
+                <h3>obi cubana</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+             <div class="swiper-slide box">
+                <img src="elon.jpg" alt="">
+                <p>you have gained my trust, i have ordered many items from this super store and i must confess you are the best.</p>
+                <h3>elon musk</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+               <div class="swiper-slide box">
+                <img src="noah.jpeg" alt="">
+                <p>i got exactly what i ordered, in fact the items were even better than i expected. thank you so much!</p>
+                <h3>trevor noah</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--REVIEW SECTION ENDS-->
+
+<!---------------BLOGS SECTION STARTS------------------>
+
+<section class="blogs" id="blogs">
+    <h1 class="heading">our <span>Blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="schhol-items.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>by user</a>
+                    <a href="#"> <i class="fas fa-calendar"></i>16th jan, 2023</a>
+                </div>
+                <h3>education and dreams of young people</h3>
+                <p><b>mose gomz</b> spoked on live tv that the opportunity for student scholarships has opened 
+                    doors for many commoners including parents who never had enough for their children...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="strawberry.jfif" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>by user</a>
+                    <a href="#"> <i class="fas fa-calendar"></i>16th jan, 2023</a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p><b>dr. david mayor</b> has urged iykum residents to take more fresh foods and went further
+                to explain why it is very important citizens should eat more vegetables and fruits...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="dairy-products.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>by user</a>
+                    <a href="#"> <i class="fas fa-calendar"></i>16th jan, 2023</a>
+                </div>
+                <h3>important of fresh juice and wine</h3>
+                <p><b>idumo babatunde</b> has announced the expected date the new scientifically discovered
+                juice and wine that helps to fight against cancer, kidney failure, cataract, blurred vis...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="Health_Beauty.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>by user</a>
+                    <a href="#"> <i class="fas fa-calendar"></i>16th jan, 2023</a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p><b>beauty paradise</b> according to <b>tes te company</b> disclosed the impact their expected
+                products will have in the lives of every citizens and how it will help the youths to access...</p>
+                <a href="#" class="btn">read more</a>
+           </div>
+        </div>
+    </div>
+</section>
+<!---------------BLOGS SECTION ENDS------------------>
+
+<!---------------FOOTER SECTION STARTS--------------->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>cmo super Store<i class="fas fa-shopping-basket"></i></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam est labore 
+                incidunt modi voluptatum. Fuga nihil sequi eos iure in?</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i>+123-906-5880-686<a>
+            <a href="#" class="links"><i class="fas fa-phone"></i>+123-905-2652-399</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i>chigoziedivine62@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>lagos, nigeria - 100212</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="emial" placeholder="your email" class="email">
+            <input type="submit" value="sumbit" class="btn">
+            <img src="payment.png" class="payment-img" alt="">
+        </div>
+    </div>
+
+    <div class="credit">created by | <span> cuo(chigozie)</span> | all rights reserved</div>
+</section>
+<!---------------FOOTER SECTION ENDS--------------->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
